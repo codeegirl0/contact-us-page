@@ -28,6 +28,8 @@ header{
     background-image: url("graduated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    
 }
 header::after{
     content: "";
@@ -173,6 +175,11 @@ form {
     display: block;
     margin-bottom: 0.5em;
     color: gray;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    display: none;
+    margin: 0;
 }
 
 .unities input, textarea{
